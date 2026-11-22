@@ -16,6 +16,7 @@ cask "utter" do
   depends_on macos: :ventura
 
   app "Utter.app"
+  binary "#{appdir}/Utter.app/Contents/MacOS/utter"
 
   zap trash: [
     "~/Library/Application Support/dev.utter.desktop",
