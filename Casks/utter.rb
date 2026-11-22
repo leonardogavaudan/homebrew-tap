@@ -1,6 +1,6 @@
 cask "utter" do
-  version "0.1.3"
-  sha256 "edc3747c27819df2e98a59c8c4a48a24b054b716f574288a143fe6974f7be7b8"
+  version "0.1.4"
+  sha256 "03d691bb33cde2aeb28bd6f7d48cc8b4d3c0c1b455174f8f12c52d4b96078ee4"
 
   url "https://github.com/leonardogavaudan/utter/releases/download/v#{version}/Utter_#{version}_universal.dmg"
   name "Utter"
